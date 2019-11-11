@@ -13,6 +13,7 @@ const BandMember = (props) => {
             <h3>{props.name}</h3>
             <h4>{props.role}</h4>
           </div>
+          <p>{props.info}</p>
         </CardBody>
       </Card>
     </div >

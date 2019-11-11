@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, Button } from 'reactstrap'
+import { Button } from 'reactstrap'
 
 const ShowsTable = (props) => {
   return (

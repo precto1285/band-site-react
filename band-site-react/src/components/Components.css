@@ -1,0 +1,8 @@
+#introImage{
+  background-image: url('../images/james-barbosa-qOWjDs-77cM-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#bandName{
+  text-shadow: rgb(41, 19, 41) 3px 5px;
+}

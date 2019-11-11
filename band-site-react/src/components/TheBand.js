@@ -13,25 +13,25 @@ class TheBand extends Component {
       name: "Josh Hanson",
       role: "Bass",
       image: JoshHanson,
-      cardColor: "bg-danger"
+      cardColor: "bg-danger p-2"
     },
     {
       name: "Larry Fischer",
       role: "Drums",
       image: LarryFischer,
-      cardColor: "bg-dark"
+      cardColor: "bg-dark p-2"
     },
     {
       name: "Noel Brand",
       role: "Guitar",
       image: NoelBrand,
-      cardColor: "bg-danger"
+      cardColor: "bg-danger p-2"
     },
     {
       name: "Victor Juric",
       role: "Vocals",
       image: VictorJuric,
-      cardColor: "bg-dark"
+      cardColor: "bg-dark p-2"
     }
 
   ]
@@ -46,10 +46,10 @@ class TheBand extends Component {
           </Col>
         </Row>
         <Row>
-          <Col><BandMember cardcolor={this.state[0].cardColor} name={this.state[0].name} role={this.state[0].role} image={this.state[0].image} /></Col>
-          <Col><BandMember cardcolor={this.state[1].cardColor} name={this.state[1].name} role={this.state[1].role} image={this.state[1].image} /></Col>
-          <Col><BandMember cardcolor={this.state[2].cardColor} name={this.state[2].name} role={this.state[2].role} image={this.state[2].image} /></Col>
-          <Col><BandMember cardcolor={this.state[3].cardColor} name={this.state[3].name} role={this.state[3].role} image={this.state[3].image} /></Col>
+          <Col className="col-lg-3 mb-2"><BandMember cardcolor={this.state[0].cardColor} name={this.state[0].name} role={this.state[0].role} image={this.state[0].image} /></Col>
+          <Col className="col-lg-3 mb-2"><BandMember cardcolor={this.state[1].cardColor} name={this.state[1].name} role={this.state[1].role} image={this.state[1].image} /></Col>
+          <Col className="col-lg-3 mb-2"><BandMember cardcolor={this.state[2].cardColor} name={this.state[2].name} role={this.state[2].role} image={this.state[2].image} /></Col>
+          <Col className="col-lg-3 mb-2"><BandMember cardcolor={this.state[3].cardColor} name={this.state[3].name} role={this.state[3].role} image={this.state[3].image} /></Col>
         </Row>
       </div>
     );

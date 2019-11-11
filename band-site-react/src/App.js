@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Container } from 'reactstrap';
 import './App.css';
 // Components
 import Footer from './components/Footer';
@@ -13,13 +14,15 @@ class App extends Component {
   render() {
     return (
       <div className="App" >
-        <IntroImg />
-        <NavController />
-        <TheBand />
-        <Shows />
-        <Merchandise />
-        <JoinUs />
-        <Footer />
+        <Container>
+          <IntroImg />
+          <NavController />
+          <TheBand />
+          <Shows />
+          <Merchandise />
+          <JoinUs />
+          <Footer />
+        </Container>
       </div>
     );
   }

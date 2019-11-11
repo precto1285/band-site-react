@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container } from 'reactstrap';
 import './App.css';
 // Components
-import Footer from './components/Footer';
+import AnarchyFooter from './components/AnarchyFooter';
 import IntroImg from './components/IntroImg';
 import JoinUs from './components/JoinUs';
 import Merchandise from './components/Merchandise';
@@ -21,7 +21,7 @@ class App extends Component {
           <Shows />
           <Merchandise />
           <JoinUs />
-          <Footer />
+          <AnarchyFooter />
         </Container>
       </div>
     );

@@ -1,11 +1,12 @@
 import React from 'react';
 import AnarchyBrand from '../images/Anarchy.png';
 import { Nav, Navbar, NavbarBrand, NavItem, NavLink } from 'reactstrap';
+import './Components.css'
 
 const NavController = (props) => {
   return (
 
-    <Navbar>
+    <Navbar id="navigation" className="sticky-top">
       <NavbarBrand>
         <a href="#">
           <img src={AnarchyBrand} alt="anarchyBrand" width="15%" />

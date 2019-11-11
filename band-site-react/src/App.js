@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Container } from 'reactstrap';
 import './App.css';
 // Components
@@ -10,22 +10,21 @@ import NavController from './components/NavController';
 import Shows from './components/Shows';
 import TheBand from './components/TheBand';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App" >
-        <Container>
-          <IntroImg />
-          <NavController />
-          <TheBand />
-          <Shows />
-          <Merchandise />
-          <JoinUs />
-          <AnarchyFooter />
-        </Container>
-      </div>
-    );
-  }
+const App = (props) => {
+
+  return (
+    <div className="App" >
+      <Container>
+        <IntroImg />
+        <NavController />
+        <TheBand />
+        <Shows />
+        <Merchandise />
+        <JoinUs />
+        <AnarchyFooter />
+      </Container>
+    </div>
+  );
 }
 
 export default App;

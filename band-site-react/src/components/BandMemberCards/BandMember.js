@@ -16,7 +16,7 @@ const BandMember = (props) => {
           <p>{props.info}</p>
         </CardBody>
       </Card>
-    </div >
+    </div>
   );
 };
 

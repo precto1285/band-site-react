@@ -44,10 +44,10 @@ class Shows extends Component {
         <Table className="table-black text-white text-center">
           <thead>
             <tr>
-              <th scope="col">Date</th>
-              <th scope="col">City</th>
-              <th scope="col">Venue</th>
-              <th scope="col">Buy Tickets</th>
+              <th scope="col"><h5>Date</h5></th>
+              <th scope="col"><h5>City</h5></th>
+              <th scope="col"><h5>Venue</h5></th>
+              <th scope="col"><h5>Buy Tickets</h5></th>
             </tr>
           </thead>
           <tbody>
